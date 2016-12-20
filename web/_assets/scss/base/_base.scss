@@ -27,11 +27,12 @@ body {
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
-  /*font-family: "Canela Web", Helvetica, sans-serif;*/
+  font-family: "Canela Web", Helvetica, sans-serif;
   /*font-family: "euclid_flex", Helvetica, sans-serif;*/
-  font-family: "Larsseit-Light", Helvetica, sans-serif;
+  /*font-family: "Larsseit-Light", Helvetica, sans-serif;*/
   text-transform: uppercase;
-  padding-left:25px;
+  //padding-left:25px;
+  text-decoration: underline;
 }
 
 .masthead-nav > li {
@@ -81,6 +82,20 @@ body {
   line-height: 1.5;
 }
 
+.featurette-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.grid-element {
+  padding:15px;
+}
+
+.grid-element img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
 .cm-row {
   display: block;
   justify-content: center;
@@ -119,17 +134,17 @@ body {
 .size-1of1 { width: 100%; }
 .size-1of1 img {
   width:100%;
-  padding: 10px;
+  //padding: 10px;
 }
 .size-1of2 { width: 50%; }
 .size-1of2 img {
   width:100%;
-  padding: 10px;
+  //padding: 10px;
 }
 .size-1of3 { width: 33.333%; }
 .size-1of3 img {
   width:100%;
-  padding: 10px;
+  //padding: 10px;
 }
 
 .info-container {
